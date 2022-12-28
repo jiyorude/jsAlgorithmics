@@ -1,2 +1,2 @@
 # jsAlgorithmics
-Code repository containing various challenges I have solved in JavaScript.
+A repo for keeping track of my Javascript experiments.
