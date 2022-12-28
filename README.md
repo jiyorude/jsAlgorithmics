@@ -1,2 +1,2 @@
 # jsAlgorithmics
-A repo for keeping track of my Javascript experiments.
+Collection of various JavaScript Algorithmic Challenges I solved in order to practive JavaScript
