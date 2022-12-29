@@ -1,3 +1,3 @@
 # jsAlgorithmics
-Collection of various JavaScript Algorithmic Challenges I solved in order to practice JavaScript.
+A repo containing 100 coding challenges I solved in order to better understand JavaScript.
 
