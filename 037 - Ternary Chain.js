@@ -79,3 +79,4 @@ console.log(switchChain(3)); // Equal or lower than 10
 console.log(switchChain(15)); // Equal or lower than 20
 console.log(switchChain(20)); // Equal or lower than 20
 console.log(switchChain(0)); // Zero
+console.log(switchChain()); // No input / too high, since there was no input defined
