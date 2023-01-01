@@ -15,7 +15,7 @@ console.log(alert);
 
 // The issue here is that the numbers are seen as string data.
 // In string logic, 1 + 2 = 12 as both numbers are simply glued together.
-// To fix this, add "+" in front of a and b, like so:
+// To fix this, add "+" in front of a and b in order to convert them to numbers, like so:
 
 let c = prompt("First number?", 1);
 let d = prompt("Second number?", 2);
