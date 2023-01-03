@@ -1,3 +1,8 @@
+/*
+CHALLENGE:
+Create a login system with if/else statements and prompt/alerts
+*/
+
 let user = prompt("Who's there?");
 
 if (user === "Admin") {
