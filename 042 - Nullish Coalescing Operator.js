@@ -3,24 +3,19 @@ CHALLENGE:
 Explain the result of the following code:
 */
 
-
 // Example 1:
 let myBike;
 console.log(myBike ?? "No Bike");
 
-
 // Example 2:
-let myDinner = "Hamburgers"
+let myDinner = "Hamburgers";
 console.log(null ?? myDinner);
 
-
 // Example 3:
-console.log(undefined ?? null)
-
+console.log(undefined ?? null);
 
 // Example 4:
 console.log(null ?? undefined);
-
 
 // Example 5:
 let myName = undefined;
@@ -28,7 +23,6 @@ let mySecondName = null;
 let myNickName = "1337H4X0R";
 
 console.log(myName ?? mySecondName ?? myNickName);
-
 
 /*
 Example 1:
