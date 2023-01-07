@@ -25,6 +25,6 @@ palindromeChecker = (string) => {
   return true;
 };
 
-console.log(palindromeChecker("eyeball"));
-console.log(palindromeChecker("race car"));
-console.log(palindromeChecker("almostomla"));
+console.log(palindromeChecker("eyeball")); // Logs false
+console.log(palindromeChecker("race car")); // Logs true
+console.log(palindromeChecker("almostomla")); // Logs false
