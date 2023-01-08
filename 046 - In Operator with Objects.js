@@ -26,7 +26,7 @@ let users = {
   name: "Fred Davids",
   age: 42,
   isAdmin: false,
-  lastLoggedIn: "January 1st, 2023, 5PM",
+  lastLoggedIn: "January 1st, 2023, 5PM"
 };
 
 let emptyValues = [];
