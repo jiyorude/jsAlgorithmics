@@ -21,3 +21,34 @@ for (values in myGar) {
 
 // Returns all of the values of the object's keys.
 // Garfield, undefined, lazy orange cat..., eating lasagna..., nermal.
+
+let users = {
+  name: "Fred Davids",
+  age: 42,
+  isAdmin: false,
+  lastLoggedIn: "January 1st, 2023, 5PM",
+};
+
+let emptyValues = [];
+let emptyKeys = [];
+
+for (let key in users) {
+  console.log(key);
+  console.log(users[key]);
+  emptyValues.push(users[key]);
+  emptyKeys.push(key);
+}
+
+console.log(emptyValues);
+console.log(emptyKeys);
+
+// When logged, the keys are pushed to the emptyKeys array.
+// When logged, the values are pushed to emptyValues.
+
+/*
+emptyKeys = 
+['name', 'age', 'isAdmin', 'lastLoggedIn']
+
+emptyValues = 
+['Fred Davids', 42, false, 'January 1st, 2023, 5PM]
+*/
