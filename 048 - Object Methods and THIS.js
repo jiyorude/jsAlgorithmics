@@ -30,7 +30,7 @@ user.motto();
 user.sayHi();
 // Howdy partner
 
-// Using this:
+// Using 'this':
 
 let myPizza = {
   name: "perfect pepperoni",
@@ -50,6 +50,10 @@ myPizza.bakePizza();
 // You've ordered a perfect pepperoni medium pizza with a regular crust covered with
 // pepperoni, mozarella and secret tomato coriander sus. Enjoy.
 // Yes, the well known pizza example shown by Dave.
+
+// It works because this.parameter looks at the parameter found in that specific object.
+// You could use myPizza.name, but if we were to copy it to another variable or overwrite it
+// JavaScript would proceed to most likely access the wrong object or property.
 
 // 'this' is not bound at all and is tied to the scope of the objects they're used in.
 // This could both be used in me and notMe without any interference and would take the name property of their respective object.
