@@ -285,8 +285,7 @@ for (let x = 0; x < colorArray.length; x++) {
   console.log(`Color number ${x} is ${colorArray[x]}.`);
 
   if (x === 6) {
-    console.log(`Color number ${x} is ${colorArray[x]}. I don't really like this color.`);
-    continue;
+    console.log(`That is the end of the list.`);
   }
 }
 
@@ -297,5 +296,6 @@ Color 2 is Blue.
 Color 3 is Green.
 Color 4 is Purple.
 Color 5 is Orange.
-Color 6 is Brown. I don't really like this color.
+Color 6 is Brown. 
+That is the end of the list.
 */
