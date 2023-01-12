@@ -92,7 +92,7 @@ let myOrderArray = Object.entries(myOrderList);
 console.log(myOrderArray);
 
 orderSummary = () => {
-  let price = 6.35;
+  let price = 4.5;
 
   for (let x = 0; x < myOrderArray.length; x++) {
     let total = (myOrderArray[x][1] * price).toFixed(2);
@@ -103,11 +103,11 @@ orderSummary = () => {
 orderSummary();
 
 /*
-Janine purchased 4 products, which equals to 18 euro.
-Zack purchased 3 products, which equals to 13.5 euro.
-Bob purchased 8 products, which equals to 36 euro.
-Charlie purchased 1 products, which equals to 4.5 euro.
-Joan purchased 7 products, which equals to 31.5 euro.
+Janine purchased 4 products, which equals to 18.00 euro.
+Zack purchased 3 products, which equals to 13.50 euro.
+Bob purchased 8 products, which equals to 36.00 euro.
+Charlie purchased 1 products, which equals to 4.50 euro.
+Joan purchased 7 products, which equals to 31.50 euro.
 */
 
 // If we were to raise prices to 6,35. We'd get this:
