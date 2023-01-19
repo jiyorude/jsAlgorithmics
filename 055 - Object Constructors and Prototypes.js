@@ -164,12 +164,12 @@ console.log(orange.kind); // Citrus Fruits
 
 console.log(orange);
 
-// Let's finish by using IS PROTOTYPE OF to understand protoypal inheritance
+// Let's finish by using IS PROTOTYPE OF to understand prototypal inheritance
 
 console.log(Fruits.prototype.isPrototypeOf(citrusFruits.prototype));
 // If the prototype of 'fruits' is used/inherited as a prototype for the prototype of citrusFruits, then return true.
-// Console logs 'true' as Fruits is higher in the hierarchy than citrusFruits.
-// Fruits > citrusFruits > orange. Orange is a child of citrusFruits, and citrusFruits is a child of Fruits.
+// Console logs 'true' as citrusFruits was declared as a porotype of fruits. It inherited all of the properties upon creation.
+// Fruits > citrusFruits > orange. Orange is a child of citrusFruits, and citrusFruits is a child of Fruits. Fruits is the supertype in this case.
 
 let proto = Object.getPrototypeOf(orange);
 
